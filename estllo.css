@@ -169,3 +169,58 @@ body.descargas aside{
     border-radius:20px;
     text-align:center;
 }
+/* TABLET */
+@media (max-width: 768px){
+
+    .contenedor{
+        width: 95%;
+        padding: 15px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 10px 0;
+    }
+
+    nav ul li a{
+        display: block;
+    }
+
+    header h1{
+        font-size: 28px;
+    }
+
+    img{
+        width: 180px;
+        height: auto;
+        margin: 10px;
+    }
+}
+
+/* CELULAR */
+@media (max-width: 480px){
+
+    header h1{
+        font-size: 22px;
+    }
+
+    section h2{
+        font-size: 20px;
+    }
+
+    article h3{
+        font-size: 18px;
+    }
+
+    img{
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+        margin: 10px auto;
+        display: block;
+    }
+
+    body{
+        padding: 10px;
+    }
+}
