@@ -1,0 +1,171 @@
+/* CSS CORREGIDO Y MEJORADO */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#ede4e4;
+    padding:20px;
+}
+
+/* contenedor */
+.contenedor{
+    background-color:#d9e1e8;
+    width:90%;
+    max-width:1000px;
+    margin:auto;
+    padding:20px;
+    border-radius:20px;
+}
+/* header */
+header{
+    background-color:#f7941d;
+    text-align:center;
+    padding:25px;
+    border-radius:40px;
+    margin-bottom:20px;
+}
+
+header h1{
+    font-size:35px;
+}
+
+/* menú */
+nav{
+    background-color:#41e86d;
+    padding:15px;
+    border-radius:20px;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+nav ul{
+    list-style:none;
+}
+
+nav ul li{
+    display:inline-block;
+    margin:0 10px;
+}
+
+/* enlaces */
+nav ul li a{
+    text-decoration:none;
+    color:rgb(35,5,225);
+    font-weight:bold;
+    padding:10px 15px;
+    border-radius:8px;
+    transition:0.3s;
+}
+
+/* efecto hover */
+nav ul li a:hover{
+    background-color:white;
+    color:blue;
+}
+
+/* sección */
+section{
+    background-color:#8d11e6;
+    width:100%;
+    padding:20px;
+    border-radius:15px;
+}
+
+/* título */
+section h2{
+    color:white;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+/* artículos */
+article{
+    background-color:#84e211;
+    padding:15px;
+    margin-bottom:15px;
+    border-radius:15px;
+    text-align:center;
+}
+
+/* imágenes */
+img{
+    border-radius:20px;
+    margin:15px;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.25);
+    transition:0.4s;
+}
+
+img:hover{
+    transform:scale(1.08);
+}
+
+/* footer */
+footer{
+    background-color:#2073bc;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+    color:white;
+    margin-top:20px;
+}
+aside {
+    background-color: #1df7f0;
+    flex: 1;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+aside h3 {
+    margin-bottom: 15px;
+}
+/* buscador */
+.buscador {
+      margin-bottom: 20px;
+}
+
+.buscador h4   {
+    margin-bottom: 10px;
+}
+.buscador input{
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    border: none;
+}
+.contenedor1 footer{
+    background-color: #2073bc;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+body.descargas .contenedor{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+body.descargas header,
+body.descargas nav,
+body.descargas footer{
+    width:100%;
+}
+
+body.descargas section{
+    width:68%;
+    margin:0;
+}
+
+body.descargas aside{
+    width:28%;
+    margin:0;
+    background-color:#1df7f0;
+    padding:20px;
+    border-radius:20px;
+    text-align:center;
+}
